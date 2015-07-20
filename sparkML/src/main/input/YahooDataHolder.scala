@@ -21,6 +21,7 @@ class YahooDataHolder(dataDirectoryPath: String) extends DataHolder with Seriali
    */
   protected def loadRatingsFromAFile(): RDD[Rating] = {
     val ratings = SparkEnv.sc.textFile(dataDirectoryPath + "data.txt")
+      .filter(line => formatSpace(line).split(" ").length >= 3)
       .map { line =>
       val lineFormat = formatSpace(line)
       val fields = lineFormat.split(" ")

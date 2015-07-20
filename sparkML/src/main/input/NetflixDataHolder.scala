@@ -5,8 +5,13 @@ package main.input
  */
 
 import main.util.SparkEnv
+import org.apache.hadoop.conf.Configuration
+import org.apache.hadoop.fs.{FileSystem, Path}
 import org.apache.spark.mllib.recommendation.Rating
 import org.apache.spark.rdd.RDD
+
+import scala.collection.mutable.ArrayBuffer
+;
 
 /**
  * @param dataDirectoryPath NetFlix数据集根目录
@@ -53,12 +58,14 @@ class NetflixDataHolder4Directory(dataDirectoryPath: String) extends NetflixData
   protected val ratings = loadRatingsFromADirectory()
 
   protected def loadRatingsFromADirectory(): RDD[Rating] = {
-    val dir = new java.io.File(dataDirectoryPath).listFiles.filter(f => f.getName == "training_set")
+    val conf = new Configuration()
+    val hdfs = FileSystem.get(conf)
+    val dataPath = new Path(dataDirectoryPath + "training_set")
+    val stats = hdfs.listStatus(dataPath)
+    var fileList = new ArrayBuffer[String]
 
-    if (dir.length != 1) throw new WrongInputDataException
-
-    val files = dir(0).listFiles
-    val ratingsRDDsArray = files.map { file => loadRatingsFromOneFile(file.getAbsolutePath) }
+    for (stat <- stats) fileList += stat.getPath.toString
+    val ratingsRDDsArray = fileList.map(filePath => loadRatingsFromOneFile(filePath))
     val ratings = SparkEnv.sc.union(ratingsRDDsArray)
     ratings.persist.coalesce(77)
   }

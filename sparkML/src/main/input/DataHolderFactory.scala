@@ -39,7 +39,7 @@ object NetFlixInFileDataHolderFactory extends DataHolderFactory {
 
   override def getDataHolderInstance(conf: Conf): DataHolder = {
     println(getDescription)
-    new YahooDataHolder(conf.dir())
+    new NetflixDataHolder4OneFile(conf.dir())
   }
 }
 
@@ -50,6 +50,6 @@ object NetFlixInDirectoryDataHolderFactory extends DataHolderFactory {
 
   override def getDataHolderInstance(conf: Conf): DataHolder = {
     println(getDescription)
-    new YahooDataHolder(conf.dir())
+    new NetflixDataHolder4Directory(conf.dir())
   }
 }
