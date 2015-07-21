@@ -44,7 +44,7 @@ object NetFlixInFileDataHolderFactory extends DataHolderFactory {
 }
 
 object NetFlixInDirectoryDataHolderFactory extends DataHolderFactory {
-  override def getName: String = "NetflixInDirectory"
+  override def getName: String = "NetFlixInDirectory"
 
   override def getDescription: String = "数据源：Yahoo数据集，目录\n数据格式：每个文件第一行为UserID，其余每行：movieID,rating(0-5),time"
 

@@ -8,7 +8,7 @@ import main.recommender.{Recommender, RecommenderFactory}
  */
 
 /**
- * 获取
+ * 初始化并获取DataHolder和Recommender
  */
 object MainHolder {
   private var recommender: Option[Recommender] = None
