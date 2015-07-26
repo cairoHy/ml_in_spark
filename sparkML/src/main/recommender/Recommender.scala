@@ -22,7 +22,6 @@ class MyRecommender extends Recommender {
   //获取数据
   protected val sc = SparkEnv.sc
   protected val ratings = MainHolder.getDataHolder().getRatings
-  protected val ratingsGroupedByUser = ratings.map(rat => (rat.user, rat)).groupByKey().persist
   MainHolder.getDataHolder().printRatingDesc
 
   //分割数据集为训练集、验证集、测试集

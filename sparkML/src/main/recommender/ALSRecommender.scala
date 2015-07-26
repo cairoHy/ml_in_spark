@@ -9,8 +9,17 @@ import org.apache.spark.rdd.RDD
 
 final class ALSRecommender(ranks: Range, lambdas: List[Double], numIters: Range) extends MyRecommender {
   //训练模型并测试
-  val model = train(numValidation)
+  val model = getBestModel()
   test
+
+
+  /**
+   *
+   * @return 获取参数最佳的模型
+   */
+  private def getBestModel(): Option[MatrixFactorizationModel] = {
+    Some(ALS.train(trainData,12,20,0.05))
+  }
 
   /**
    * 使用测试集进行测试

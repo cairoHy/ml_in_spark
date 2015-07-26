@@ -60,9 +60,10 @@ def inputParm():
             print("输入不合法，请输入一个数字 ... ")
 
 def execute():
-    """执行Spark任务"""
-    call(["spark-submit","/home/zhy/spark-app/zhy/sparkML.jar","--data","NetFlixInDirectory","--dir","/zhy/data/NetFlix/little/","--method","ALS"])
-
+    DataSet = input('请输入数据集选项：\n')
+    Dir = input('请输入数据集位置：\n')
+    Alg = input('请输入算法类型：\n')
+    call(["spark-submit","/home/zhy/spark-app/zhy/sparkML.jar","--data",DataSet,"--dir",Dir,"--method",Alg])
 
 if __name__ == '__main__':
     param = inputParm()
