@@ -24,7 +24,7 @@ trait RecommenderFactory {
 }
 
 object RecommenderFactory {
-  val recommenderFactories: List[RecommenderFactory] = List(ALSRecommenderFactory)
+  val recommenderFactories: List[RecommenderFactory] = List(ALSRecommenderFactory, SlopOneRecommenderFactory)
 }
 
 object ALSRecommenderFactory extends RecommenderFactory {
@@ -46,4 +46,17 @@ object ALSRecommenderFactory extends RecommenderFactory {
     println(getDescription)
     new ALSRecommender(ranks, lambdas, iters)
   }
+}
+
+object SlopOneRecommenderFactory extends RecommenderFactory {
+  override def getName: String = "Slop-One"
+
+  override def getRecommender(conf: Conf): Recommender = {
+    println(getDescription)
+    new SlopOneRecommender
+  }
+
+  override def getParametersDescription(): String = "无参数"
+
+  override def getAlgorithmDescription(): String = "Slop-One算法"
 }
