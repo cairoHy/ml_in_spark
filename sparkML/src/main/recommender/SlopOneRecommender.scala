@@ -21,6 +21,12 @@ final class SlopOneRecommender extends MyRecommender {
     RMSE = calculateRmse(testData, numTest)
   }
 
+  def numUserConsumer_ij(product_i: Int, product_j: Int): Long = {
+    trainDataGroupByUser.filter { trainData4one =>
+      trainData4one._2.exists(a => a._1 == product_i) && trainData4one._2.exists(b => b._1 == product_j)
+    }.count()
+  }
+
   /**
    *
    * @param user 用户ID
@@ -31,22 +37,24 @@ final class SlopOneRecommender extends MyRecommender {
     val userRatings = {
       val ratings = trainDataGroupByUser.lookup(user)
       if (ratings.length <= 0) throw new UserNotFoundException
-      ratings(0).toMap
+      ratings(0).toIterator
     }
     var prediction: Double = 0
-    val numProduct = userRatings.size
+    var sum_S_ij: Long = 0
     userRatings.foreach { rating =>
       val deviation_ij = calcuDeviation_ij(product, rating._1)
+      val S_ij = numUserConsumer_ij(product, rating._1)
       val r_ui = rating._2
-      prediction += (deviation_ij + r_ui)
+      prediction += (deviation_ij + r_ui) * S_ij
+      sum_S_ij += S_ij
       if (rating._1 == product) return new Rating(user, product, rating._2)
     }
-    new Rating(user, product, prediction / numProduct)
+    new Rating(user, product, prediction / sum_S_ij)
   }
 
 
   private def calculateRmse(dataset: RDD[Rating], n: Long): Double = {
-
+    println("开始计算RMSE")
     var predictions = ArrayBuffer[Rating]()
     val train = dataset.toLocalIterator
     train.foreach { x =>
