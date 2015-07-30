@@ -80,7 +80,6 @@ final class SlopOneRecommender extends MyRecommender {
    * @return 物品i与j的偏差
    */
   private def calcuDeviation_ij(product_i: Int, product_j: Int): Double = {
-    //TODO 这里的偏差计算交集的方式可能不对
     val userList4i = trainData.filter(rating => rating.product == product_i)
     val userList4j = trainData.filter(rating => rating.product == product_j)
     val userList4ij = userList4i.intersection(userList4j)
