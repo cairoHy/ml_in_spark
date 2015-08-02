@@ -1,7 +1,7 @@
 package main.util
 
-import main.input.DataHolderFactory
-import main.recommender.RecommenderFactory
+import main.factory.AlgorithmFactory
+import main.input.DataFactory
 import org.rogach.scallop.ScallopConf
 
 /**
@@ -14,18 +14,18 @@ import org.rogach.scallop.ScallopConf
  */
 class Conf(arguments: Seq[String]) extends ScallopConf(arguments) {
 
-  val datasetTypes = DataHolderFactory.dataHolderFactories
-  val algorithms = RecommenderFactory.recommenderFactories
+  val datasetTypes = DataFactory.dataHolderFactories
+  val algorithms = AlgorithmFactory.AlgList
 
   banner( """
-Spark推荐系统
+Spark机器学习算法
 ----------------
-基于Spark的推荐系统
+基于Spark的机器学习算法库
 
-Example:
-recommend --data Yahoo --dir /zhy/data/Yahoo/ --method ALS
+示例:
+spark-submit [Jar] --data Yahoo --dir /zhy/data/Yahoo/ --method ALS
 
-Arguments:
+参数:
           """)
 
   version("version 1.0")

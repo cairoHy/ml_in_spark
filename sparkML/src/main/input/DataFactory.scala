@@ -9,7 +9,7 @@ import main.util.Conf
 /**
  * 数据集工厂
  */
-trait DataHolderFactory {
+trait DataFactory {
   def getName: String
 
   def getDescription: String
@@ -17,11 +17,11 @@ trait DataHolderFactory {
   def getDataHolderInstance(conf: Conf): DataHolder
 }
 
-object DataHolderFactory {
-  val dataHolderFactories: List[DataHolderFactory] = List(YahooDataHolderFactory, NetFlixInDirectoryDataHolderFactory, NetFlixInFileDataHolderFactory)
+object DataFactory {
+  val dataHolderFactories: List[DataFactory] = List(YahooDataFactory, NetFlixInDirectoryDataFactory, NetFlixInFileDataFactory)
 }
 
-object YahooDataHolderFactory extends DataHolderFactory {
+object YahooDataFactory extends DataFactory {
   override def getName: String = "Yahoo"
 
   override def getDescription: String = "数据源：Yahoo数据集，单个文件\n数据格式：userID itemID(musicID) rating(0-100)"
@@ -32,7 +32,7 @@ object YahooDataHolderFactory extends DataHolderFactory {
   }
 }
 
-object NetFlixInFileDataHolderFactory extends DataHolderFactory {
+object NetFlixInFileDataFactory extends DataFactory {
   override def getName: String = "NetFlixInFile"
 
   override def getDescription: String = "数据源：NetFlix数据集，单个文件\n数据格式：???"
@@ -43,7 +43,7 @@ object NetFlixInFileDataHolderFactory extends DataHolderFactory {
   }
 }
 
-object NetFlixInDirectoryDataHolderFactory extends DataHolderFactory {
+object NetFlixInDirectoryDataFactory extends DataFactory {
   override def getName: String = "NetFlixInDirectory"
 
   override def getDescription: String = "数据源：NetFlix数据集，目录\n数据格式：每个文件第一行为UserID，其余每行：movieID,rating(0-5),time"

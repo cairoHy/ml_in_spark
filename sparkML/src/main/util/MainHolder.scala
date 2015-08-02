@@ -1,7 +1,7 @@
 package main.util
 
-import main.input.{DataHolder, DataHolderFactory}
-import main.recommender.{Recommender, RecommenderFactory}
+import main.factory.{Algorithm, AlgorithmFactory}
+import main.input.{DataFactory, DataHolder}
 
 /**
  * Created by zhy on 2015/7/19 0019.
@@ -11,7 +11,7 @@ import main.recommender.{Recommender, RecommenderFactory}
  * 初始化并获取DataHolder和Recommender
  */
 object MainHolder {
-  private var recommender: Option[Recommender] = None
+  private var recommender: Option[Algorithm] = None
   private var dataHolder: Option[DataHolder] = None
 
   /**
@@ -19,26 +19,26 @@ object MainHolder {
    * @param conf 配置管理类
    */
   def setUp(conf: Conf): Unit = {
-    val dataHolderNameToFactoryMap = DataHolderFactory.dataHolderFactories.map(holder => holder.getName -> holder).toMap
+    val dataHolderNameToFactoryMap = DataFactory.dataHolderFactories.map(holder => holder.getName -> holder).toMap
     val dataHolderStr: String = conf.data()
     dataHolder = Some(dataHolderNameToFactoryMap.get(dataHolderStr).get.getDataHolderInstance(conf))
 
-    val recommenderNameToFactoryMap = RecommenderFactory.recommenderFactories.map(rec => rec.getName -> rec).toMap
+    val recommenderNameToFactoryMap = AlgorithmFactory.AlgList.map(rec => rec.getName -> rec).toMap
     val recommenderStr: String = conf.method()
-    recommender = Some(recommenderNameToFactoryMap.get(recommenderStr).get.getRecommender(conf))
+    recommender = Some(recommenderNameToFactoryMap.get(recommenderStr).get.getAlg(conf))
   }
 
   /**
    * 计算该推荐算法对于测试集的均方根误差RMSE
    * @return Unit
    */
-  def calculateRMSE() = getRecommenderInstance.getRMSE
+  def calculateRMSE() = getAlgInstance.getRMSE
 
   /**
    *
-   * @return 推荐算法实例
+   * @return 机器学习算法实例
    */
-  def getRecommenderInstance(): Recommender = {
+  def getAlgInstance(): Algorithm = {
     recommender match {
       case Some(rec) => rec
       case None => throw new MainHolderNotInitializedException

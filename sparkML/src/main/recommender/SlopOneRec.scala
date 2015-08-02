@@ -1,5 +1,6 @@
 package main.recommender
 
+import main.factory.InputData
 import org.apache.spark.mllib.recommendation.Rating
 import org.apache.spark.rdd.RDD
 
@@ -8,7 +9,7 @@ import scala.collection.mutable.ArrayBuffer
 /**
  * Created by zhy on 2015/7/26 0026.
  */
-final class SlopOneRecommender extends MyRecommender {
+final class SlopOneRec extends Recommender with InputData with Serializable {
   val trainDataGroupByUser = trainData.map(rating => (rating.user, (rating.product, rating.rating)))
     .groupByKey.persist
   test
