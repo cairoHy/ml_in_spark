@@ -14,7 +14,7 @@ import org.apache.spark.rdd.RDD
  */
 
 /**
- * Logistic Regression
+ * Logistic Regression逻辑回归模型
  */
 final class StreamingLRWithFTRL(val numFeatures: Int)
   extends RegressionModel with InputData with Serializable {
@@ -27,19 +27,30 @@ final class StreamingLRWithFTRL(val numFeatures: Int)
 
   //训练参数
   override def train(trainData: RDD[LabeledPoint]): Unit = {
+    var tmpVector: Array[SparseVector[Double]] = new Array[SparseVector[Double]](3)
     trainData.foreach { data =>
-      weights = optimizer.optimize(data, weights)
+      tmpVector = optimizer.optimize(data, weights)
+      weights = tmpVector(0)
+      optimizer.updateOptimizer(tmpVector(1), tmpVector(2))
     }
   }
 
-  //预测样本集合
+  /**
+   * 预测样本集合
+   * @param testData 测试数据集合
+   * @return 分类集合
+   */
   def predict(testData: RDD[Vector]): RDD[Double] = {
     testData.map { data =>
       predict(data)
     }
   }
 
-  //根据假设函数 预测单个样本
+  /**
+   * 根据假设函数 预测单个样本
+   * @param testData 测试样本数据
+   * @return 分类数据：  1 or 0
+   */
   def predict(testData: Vector): Double = {
     val x: Double = weights.dot(AlgUtil.VtoB(testData))
     val prob: Double = sigmod(x)
