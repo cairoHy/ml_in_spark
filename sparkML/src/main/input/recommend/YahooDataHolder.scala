@@ -1,4 +1,4 @@
-package main.input
+package main.input.recommend
 
 import main.util.SparkEnv
 import org.apache.spark.mllib.recommendation.Rating
@@ -11,7 +11,7 @@ import org.apache.spark.rdd.RDD
 /**
  * @param dataDirectoryPath Yahoo数据集根目录
  */
-class YahooDataHolder(dataDirectoryPath: String) extends DataHolder with Serializable {
+class YahooDataHolder(dataDirectoryPath: String) extends RecDataHolder with Serializable {
   override protected val ratings: RDD[Rating] = loadRatingsFromAFile()
   override protected val productsIDsToNameMap: Map[Int, String] = loadIDsToProductnameMapFromADirectory(dataDirectoryPath)
 

@@ -7,12 +7,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37ef3c2b-b2a2-44db-8484-a32e592e347d" name="Default" comment="V1.3.2 加权Slop-One算法实现完成，效率太低">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/input/LRDataHolder.scala" />
+      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\Classifier\StreamingLRWithFTRL$$anonfun$predict$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\factory\InputData$class.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\factory\InputData.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\input\DataHolder$$anonfun$printRatingDesc$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\input\DataHolder$$anonfun$printRatingDesc$2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\input\DataHolder$class.class" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\input\DataHolderFactory$.class" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\input\DataHolderFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\input\NetFlixInDirectoryDataFactory$.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\input\NetFlixInDirectoryDataFactory.class" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\input\NetFlixInDirectoryDataHolderFactory$.class" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\input\NetFlixInDirectoryDataHolderFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\input\NetFlixInFileDataFactory$.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\input\NetFlixInFileDataFactory.class" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\input\NetFlixInFileDataHolderFactory$.class" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\input\NetFlixInFileDataHolderFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\input\NetflixDataHolder$$anonfun$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\input\NetflixDataHolder.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\input\NetflixDataHolder4Directory$$anonfun$3.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\input\NetflixDataHolder4Directory$$anonfun$4.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\input\NetflixDataHolder4Directory$$anonfun$loadRatingsFromADirectory$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\input\NetflixDataHolder4Directory$$anonfun$loadRatingsFromOneFile$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\input\NetflixDataHolder4Directory.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\input\NetflixDataHolder4OneFile$$anonfun$2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\input\NetflixDataHolder4OneFile$.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\input\NetflixDataHolder4OneFile.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\input\WrongInputDataException.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\input\YahooDataFactory$.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\input\YahooDataFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\input\YahooDataHolder$$anonfun$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\input\YahooDataHolder$$anonfun$2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\input\YahooDataHolder.class" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\input\YahooDataHolderFactory$.class" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\input\YahooDataHolderFactory.class" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\recommender\ALSRecommender$$anonfun$1.class" afterPath="" />
@@ -31,20 +58,34 @@
       <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\recommender\RecommenderFactory$.class" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\recommender\RecommenderFactory$class.class" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\recommender\RecommenderFactory.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkML/main/util/Conf$$anonfun$1$$anonfun$apply$1.class" afterPath="$PROJECT_DIR$/out/production/sparkML/main/util/Conf$$anonfun$1$$anonfun$apply$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkML/main/util/Conf$$anonfun$2.class" afterPath="$PROJECT_DIR$/out/production/sparkML/main/util/Conf$$anonfun$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkML/main/util/Conf$$anonfun$6$$anonfun$apply$2.class" afterPath="$PROJECT_DIR$/out/production/sparkML/main/util/Conf$$anonfun$6$$anonfun$apply$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkML/main/util/Conf$$anonfun$7.class" afterPath="$PROJECT_DIR$/out/production/sparkML/main/util/Conf$$anonfun$7.class" />
+      <change type="MOVED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\src\main\Classifier\StreamingLRWithFTRL.scala" afterPath="$PROJECT_DIR$/src/main/Classifier/LRWithFTRL.scala" />
+      <change type="MOVED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\src\main\input\DataHolder.scala" afterPath="$PROJECT_DIR$/src/main/input/recommend/RecDataHolder.scala" />
+      <change type="MOVED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\src\main\input\NetflixDataHolder.scala" afterPath="$PROJECT_DIR$/src/main/input/recommend/NetflixDataHolder.scala" />
+      <change type="MOVED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\src\main\input\YahooDataHolder.scala" afterPath="$PROJECT_DIR$/src/main/input/recommend/YahooDataHolder.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkML/main/factory/ALS$.class" afterPath="$PROJECT_DIR$/out/production/sparkML/main/factory/ALS$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkML/main/recommender/ALSRec.class" afterPath="$PROJECT_DIR$/out/production/sparkML/main/recommender/ALSRec.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkML/main/factory/AlgorithmFactory$.class" afterPath="$PROJECT_DIR$/out/production/sparkML/main/factory/AlgorithmFactory$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkML/main/factory/AlgorithmFactory$class.class" afterPath="$PROJECT_DIR$/out/production/sparkML/main/factory/AlgorithmFactory$class.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkML/main/util/Conf$delayedInit$body.class" afterPath="$PROJECT_DIR$/out/production/sparkML/main/util/Conf$delayedInit$body.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkML/main/util/Conf.class" afterPath="$PROJECT_DIR$/out/production/sparkML/main/util/Conf.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkML/main/util/MainHolder$$anonfun$1.class" afterPath="$PROJECT_DIR$/out/production/sparkML/main/util/MainHolder$$anonfun$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkML/main/util/MainHolder$$anonfun$2.class" afterPath="$PROJECT_DIR$/out/production/sparkML/main/util/MainHolder$$anonfun$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkML/main/input/DataFactory$.class" afterPath="$PROJECT_DIR$/out/production/sparkML/main/input/DataFactory$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkML/main/input/DataFactory.class" afterPath="$PROJECT_DIR$/out/production/sparkML/main/input/DataFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkML/main/input/DataHolder.class" afterPath="$PROJECT_DIR$/out/production/sparkML/main/input/DataHolder.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkML/main/util/MainHolder$.class" afterPath="$PROJECT_DIR$/out/production/sparkML/main/util/MainHolder$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkML/main/util/MainHolder.class" afterPath="$PROJECT_DIR$/out/production/sparkML/main/util/MainHolder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkML/main/recommender/Recommender.class" afterPath="$PROJECT_DIR$/out/production/sparkML/main/recommender/Recommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkML/main/factory/RMSE$class.class" afterPath="$PROJECT_DIR$/out/production/sparkML/main/factory/RMSE$class.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkML/main/factory/SlopOne$.class" afterPath="$PROJECT_DIR$/out/production/sparkML/main/factory/SlopOne$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkML/main/recommender/SlopOneRec.class" afterPath="$PROJECT_DIR$/out/production/sparkML/main/recommender/SlopOneRec.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkML/main/Classifier/StreamingLRWithFTRL$$anonfun$train$1.class" afterPath="$PROJECT_DIR$/out/production/sparkML/main/Classifier/StreamingLRWithFTRL$$anonfun$train$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkML/main/Classifier/StreamingLRWithFTRL.class" afterPath="$PROJECT_DIR$/out/production/sparkML/main/Classifier/StreamingLRWithFTRL.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/sparkML_jar/sparkML.jar" afterPath="$PROJECT_DIR$/out/artifacts/sparkML_jar/sparkML.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/recommender/ALSRec.scala" afterPath="$PROJECT_DIR$/src/main/recommender/ALSRec.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/factory/AlgTrait.scala" afterPath="$PROJECT_DIR$/src/main/factory/AlgTrait.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/factory/AlgorithmFactory.scala" afterPath="$PROJECT_DIR$/src/main/factory/AlgorithmFactory.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/util/Conf.scala" afterPath="$PROJECT_DIR$/src/main/util/Conf.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/input/DataFactory.scala" afterPath="$PROJECT_DIR$/src/main/input/DataFactory.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/input/DataHolder.scala" afterPath="$PROJECT_DIR$/src/main/input/DataHolder.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/optimizer/FTRLProximal.scala" afterPath="$PROJECT_DIR$/src/main/optimizer/FTRLProximal.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Classifier/StreamingLRWithFTRL.scala" afterPath="$PROJECT_DIR$/src/main/Classifier/StreamingLRWithFTRL.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/util/MainHolder.scala" afterPath="$PROJECT_DIR$/src/main/util/MainHolder.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/recommender/SlopOneRec.scala" afterPath="$PROJECT_DIR$/src/main/recommender/SlopOneRec.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sparkML.iws" />
@@ -81,21 +122,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FTRLProximal.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/optimizer/FTRLProximal.scala">
+      <file leaf-file-name="Conf.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/util/Conf.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.52284265">
-              <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="36" column="58" selection-start-line="36" selection-start-column="58" selection-end-line="36" selection-end-column="58" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StreamingLRWithFTRL.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Classifier/StreamingLRWithFTRL.scala">
+      <file leaf-file-name="LRWithFTRL.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Classifier/LRWithFTRL.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+              <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LRDataHolder.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/input/LRDataHolder.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4379747">
+              <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FTRLProximal.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/optimizer/FTRLProximal.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="34" column="42" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -107,6 +168,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Scala Object" />
+        <option value="Scala Trait" />
+        <option value="Scala Class" />
       </list>
     </option>
   </component>
@@ -131,12 +194,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/util/dataLoader.scala" />
-        <option value="$PROJECT_DIR$/src/main/mlTrains/LinerReg.scala" />
-        <option value="$PROJECT_DIR$/src/main/util/Context.scala" />
-        <option value="$PROJECT_DIR$/src/main/mlTrains/ALSTrainTest.scala" />
-        <option value="$PROJECT_DIR$/src/main/util/MLContext.scala" />
-        <option value="$PROJECT_DIR$/src/main/util/MLRDD.scala" />
         <option value="$PROJECT_DIR$/src/main/util/DataLoader.scala" />
         <option value="$PROJECT_DIR$/src/main/util/DataHolder.scala" />
         <option value="$PROJECT_DIR$/src/main/util/SparkEnvironment.scala" />
@@ -148,7 +205,6 @@
         <option value="$PROJECT_DIR$/src/main/util/SparkEnv.scala" />
         <option value="$PROJECT_DIR$/src/main/util/DataHolderFactory.scala" />
         <option value="$PROJECT_DIR$/src/main/app.scala" />
-        <option value="$PROJECT_DIR$/src/main/input/DataHolder.scala" />
         <option value="$PROJECT_DIR$/src/main/mlTrains/CollaborativeFilter.scala" />
         <option value="$PROJECT_DIR$/src/main/recommender/LinearReg.scala" />
         <option value="$PROJECT_DIR$/src/main/recommender/LinearRegRecommender.scala" />
@@ -159,29 +215,36 @@
         <option value="$PROJECT_DIR$/src/main/optimizer/optimizer.scala" />
         <option value="$PROJECT_DIR$/src/main/recommender/RecommenderFactory.scala" />
         <option value="$PROJECT_DIR$/src/main/recommender/AlgorithmFactory.scala" />
-        <option value="$PROJECT_DIR$/src/main/factory/AlgorithmFactory.scala" />
         <option value="$PROJECT_DIR$/src/main/input/input.scala" />
         <option value="$PROJECT_DIR$/src/main/recommender/SlopOneRecommender.scala" />
         <option value="$PROJECT_DIR$/src/main/recommender/ALSRecommender.scala" />
         <option value="$PROJECT_DIR$/src/main/input/InputData.scala" />
         <option value="$PROJECT_DIR$/src/main/recommender/Recommender.scala" />
         <option value="$PROJECT_DIR$/src/main/factory/InputData.scala" />
-        <option value="$PROJECT_DIR$/src/main/factory/AlgTrait.scala" />
         <option value="$PROJECT_DIR$/src/main/Classifier/Regression.scala" />
         <option value="$PROJECT_DIR$/src/main/input/DataHolderFactory.scala" />
-        <option value="$PROJECT_DIR$/src/main/input/DataFactory.scala" />
-        <option value="$PROJECT_DIR$/src/main/util/Conf.scala" />
         <option value="$PROJECT_DIR$/src/main/Classifier/LR.scala" />
-        <option value="$PROJECT_DIR$/src/main/util/MainHolder.scala" />
         <option value="$PROJECT_DIR$/src/main/factory/Algorithm.scala" />
-        <option value="$PROJECT_DIR$/src/main/recommender/ALSRec.scala" />
-        <option value="$PROJECT_DIR$/src/main/recommender/SlopOneRec.scala" />
         <option value="$PROJECT_DIR$/src/main/optimizer/Optimizer.scala" />
         <option value="$PROJECT_DIR$/src/main/linalg/algUtil.scala" />
         <option value="$PROJECT_DIR$/src/main/linalg/AlgUtil.scala" />
         <option value="$PROJECT_DIR$/src/main/Classifier/RegressionModel.scala" />
+        <option value="$PROJECT_DIR$/src/main/input/RecDataHolder.scala" />
+        <option value="$PROJECT_DIR$/src/main/input/recommend/YahooDataHolder.scala" />
+        <option value="$PROJECT_DIR$/src/main/factory/AlgorithmFactory.scala" />
+        <option value="$PROJECT_DIR$/src/main/util/MainHolder.scala" />
+        <option value="$PROJECT_DIR$/src/main/input/DataHolder.scala" />
+        <option value="$PROJECT_DIR$/src/main/input/recommend/RecDataHolder.scala" />
+        <option value="$PROJECT_DIR$/src/main/recommender/ALSRec.scala" />
+        <option value="$PROJECT_DIR$/src/main/recommender/InputData.scala" />
+        <option value="$PROJECT_DIR$/src/main/recommender/SlopOneRec.scala" />
+        <option value="$PROJECT_DIR$/src/main/factory/AlgTrait.scala" />
         <option value="$PROJECT_DIR$/src/main/Classifier/StreamingLRWithFTRL.scala" />
+        <option value="$PROJECT_DIR$/src/main/util/Conf.scala" />
+        <option value="$PROJECT_DIR$/src/main/input/DataFactory.scala" />
         <option value="$PROJECT_DIR$/src/main/optimizer/FTRLProximal.scala" />
+        <option value="$PROJECT_DIR$/src/main/Classifier/LRWithFTRL.scala" />
+        <option value="$PROJECT_DIR$/src/main/input/LRDataHolder.scala" />
       </list>
     </option>
   </component>
@@ -248,11 +311,119 @@
       <showLibraryContents />
       <hideEmptyPackages ProjectPane="true" />
       <abbreviatePackageNames ProjectPane="true" />
-      <autoscrollToSource ProjectPane="true" />
-      <autoscrollFromSource ProjectPane="true" />
+      <autoscrollToSource ProjectPane="false" />
+      <autoscrollFromSource ProjectPane="false" />
       <sortByType ProjectPane="false" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparkML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparkML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparkML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparkML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparkML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparkML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparkML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparkML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparkML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="recommender" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparkML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparkML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="input" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparkML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparkML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Classifier" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <option name="show-excluded-files" value="false" />
+      </pane>
+      <pane id="Scratches" />
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -440,190 +611,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="recommender" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="optimizer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="linalg" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="input" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="input" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataFactory.scala" />
-              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Classifier" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-        <option name="show-excluded-files" value="false" />
-      </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1014,7 +1001,6 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="37ef3c2b-b2a2-44db-8484-a32e592e347d" name="Default" comment="" />
-      <changelist id="" name="out文件夹" comment="" />
       <created>1436804116878</created>
       <option name="number" value="Default" />
       <updated>1436804116878</updated>
@@ -1067,6 +1053,10 @@
       <workItem from="1438515509818" duration="4022000" />
       <workItem from="1438519816360" duration="6053000" />
       <workItem from="1438526319426" duration="728000" />
+      <workItem from="1438564861615" duration="3041000" />
+      <workItem from="1438570315383" duration="5226000" />
+      <workItem from="1438593302524" duration="890000" />
+      <workItem from="1438594476268" duration="2103000" />
     </task>
     <task id="LOCAL-00001" summary="V1.1 写了一个脚本用来随机上传10%NetFlix数据集到HDFS；实现了NetFlix数据集目录形式的读取">
       <created>1437380617513</created>
@@ -1096,7 +1086,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132128000" />
+    <option name="totallyTimeSpent" value="143388000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1112,15 +1102,14 @@
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3258427" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31511253" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32475883" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31460676" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329582" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31993568" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31832796" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905295" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23845571" sideWeight="0.49164677" order="0" side_tool="false" content_ui="combo" x="561" y="58" width="243" height="622" />
@@ -1136,6 +1125,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1203,24 +1193,11 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/602/CFAlogrithm@Spark/环境/lib4intellij/spark/spark-assembly-1.4.0-hadoop2.6.0.jar!/org/apache/spark/mllib/regression/LabeledPoint.class">
+    <entry file="file://$PROJECT_DIR$/src/main/recommender/ALSRec.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14159292">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files (x86)/scala/lib/scala-library.jar!/scala/Option.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03539823">
-          <caret line="1" column="42" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/602/CFAlogrithm@Spark/环境/lib4intellij/spark/spark-assembly-1.4.0-hadoop2.6.0.jar!/org/apache/spark/mllib/regression/LinearRegressionWithSGD.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21238938">
-          <caret line="6" column="77" selection-start-line="6" selection-start-column="76" selection-end-line="6" selection-end-column="77" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1287,13 +1264,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/input/YahooDataHolder.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.13468014">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/scala/trains/Timer.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1308,7 +1278,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/input/NetflixDataHolder.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/input/recommend/NetflixDataHolder.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5059022">
           <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
@@ -1364,13 +1334,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/602/CFAlogrithm@Spark/环境/lib4intellij/spark/spark-assembly-1.4.0-hadoop2.6.0.jar!/scala/collection/Iterator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21238938">
-          <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/602/CFAlogrithm@Spark/环境/lib4intellij/spark/spark-assembly-1.4.0-hadoop2.6.0.jar!/scala/collection/IterableLike.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.24778761">
@@ -1392,20 +1355,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/602/CFAlogrithm@Spark/环境/lib4intellij/spark/spark-assembly-1.4.0-hadoop2.6.0.jar!/org/apache/spark/mllib/linalg/SparseVector.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07067138">
-          <caret line="2" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/input/DataHolder.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32659933">
-          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.4.jar!/scala/Serializable.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.03533569">
@@ -1413,31 +1362,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/factory/AlgTrait.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63973063">
-          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/mlTrains/LinerReg.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.47138047">
           <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/util/Conf.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1919192">
-          <caret line="25" column="67" selection-start-line="25" selection-start-column="67" selection-end-line="25" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/input/DataFactory.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4949495">
-          <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -1462,52 +1390,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/recommender/ALSRec.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/recommender/Recommender.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4040404">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/util/MainHolder.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/602/CFAlogrithm@Spark/环境/lib4intellij/spark/spark-assembly-1.4.0-hadoop2.6.0.jar!/breeze/linalg/sum.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.71428573">
           <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/recommender/SlopOneRec.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/factory/AlgorithmFactory.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22259696">
-          <caret line="30" column="15" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/factory/Algorithm.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16863406">
-          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -1529,7 +1415,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.43844858">
           <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1537,7 +1422,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.20236088">
           <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1545,22 +1429,135 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33670035">
           <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/factory/Algorithm.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/602/CFAlogrithm@Spark/环境/lib4intellij/spark/spark-assembly-1.4.0-hadoop2.6.0.jar!/org/apache/spark/mllib/linalg/SparseVector.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10600707">
+          <caret line="3" column="49" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/factory/AlgorithmFactory.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.87542087">
+          <caret line="28" column="69" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/recommender/Recommender.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/recommender/SlopOneRec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06734007">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/util/MainHolder.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.56228954">
+          <caret line="54" column="37" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/recommender/ALSRec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Classifier/StreamingLRWithFTRL.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/util/Conf.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+          <caret line="36" column="58" selection-start-line="36" selection-start-column="58" selection-end-line="36" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/input/recommend/YahooDataHolder.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6734007">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/input/recommend/RecDataHolder.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32659933">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/input/DataHolder.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2698145">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/input/DataFactory.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="60" column="37" selection-start-line="60" selection-start-column="37" selection-end-line="60" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/602/CFAlogrithm@Spark/环境/lib4intellij/spark/spark-assembly-1.4.0-hadoop2.6.0.jar!/scala/collection/Iterator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34867257">
+          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/optimizer/FTRLProximal.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.52284265">
-          <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="42" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/factory/AlgTrait.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Classifier/LRWithFTRL.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/input/LRDataHolder.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4379747">
+          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
           <folding />
         </state>
       </provider>

@@ -16,7 +16,7 @@ import org.apache.spark.mllib.regression.LabeledPoint
  * @param L2 L2正则项权重
  * @param D  特征向量维度
  */
-final class FTRLProximal(val beta: Double = 0.1, val alpha: Double = 0.1, val L1: Double = 0.0, val L2: Double = 0.0, val D: Int = 100000)
+final class FTRLProximal(val beta: Double = 0.1, val alpha: Double = 0.1, val L1: Double = 0.0, val L2: Double = 0.0, val D: Int = 1000)
   extends Optimizer {
 
   private var N: SparseVector[Double] = SparseVector.zeros(D)

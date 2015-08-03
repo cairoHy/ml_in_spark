@@ -7,12 +7,12 @@ import main.util.{MainHolder, SparkEnv}
  */
 
 /**
- * 算法输入数据
+ * 推荐算法输入数据
  */
-trait InputData extends Serializable {
+trait InputRecData extends Serializable {
   protected val sc = SparkEnv.sc
-  protected val ratings = MainHolder.getDataHolder().getRatings
-  MainHolder.getDataHolder().printRatingDesc
+  protected val ratings = MainHolder.getDataHolder().getData
+  MainHolder.getDataHolder().getDataDesc
 
   //分割数据集为训练集、验证集、测试集
   protected val RDD = ratings.randomSplit(Array(0.7, 0.2, 0.1))
@@ -21,6 +21,20 @@ trait InputData extends Serializable {
   protected val testData = RDD(2).persist
   protected val numValidation = validateData.count
   protected val numTest = testData.count
+}
+
+/**
+ * LR输入数据
+ */
+trait InputLRData extends Serializable {
+  protected val sc = SparkEnv.sc
+  protected val data = MainHolder.getDataHolder().getLRData
+  MainHolder.getDataHolder().getDataDesc
+
+  protected val RDD = data.randomSplit(Array(0.8, 0.2))
+  protected val trainData = RDD(0).persist
+  protected val testData = RDD(1).persist
+
 }
 
 /**

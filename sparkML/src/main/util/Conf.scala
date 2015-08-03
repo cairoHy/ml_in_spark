@@ -14,7 +14,7 @@ import org.rogach.scallop.ScallopConf
  */
 class Conf(arguments: Seq[String]) extends ScallopConf(arguments) {
 
-  val datasetTypes = DataFactory.dataHolderFactories
+  val datasetTypes = DataFactory.dataHolderList
   val algorithms = AlgorithmFactory.AlgList
 
   banner( """
@@ -28,7 +28,7 @@ spark-submit [Jar] --data Yahoo --dir /zhy/data/Yahoo/ --method ALS
 参数:
           """)
 
-  version("version 1.0")
+  version("version 1.5.0")
 
   val data = opt[String](required = true, validate = { str => datasetTypes.map(_.getName).contains(str) }, descr = {
     "数据集类型。可选类型： " + datasetTypes.map(_.getName).reduce(_ + ", " + _)

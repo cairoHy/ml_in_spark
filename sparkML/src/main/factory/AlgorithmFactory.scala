@@ -1,5 +1,6 @@
 package main.factory
 
+import main.Classifier.LRWithFTRL
 import main.recommender.{ALSRec, Recommender, SlopOneRec}
 import main.util.Conf
 
@@ -25,7 +26,7 @@ trait AlgorithmFactory {
 }
 
 object AlgorithmFactory {
-  val AlgList: List[AlgorithmFactory] = List(ALS, SlopOne)
+  val AlgList: List[AlgorithmFactory] = List(ALS, SlopOne, LRWithFTRL)
 }
 
 object ALS extends AlgorithmFactory {
@@ -60,4 +61,22 @@ object SlopOne extends AlgorithmFactory {
   override def getParamDes(): String = "无参数"
 
   override def getAlgDes(): String = "Slop-One算法"
+}
+
+object LRWithFTRL extends AlgorithmFactory {
+  override def getName: String = "LR-FTRL"
+
+  protected val numFea = "numFeatures"
+
+  override def getParamDes(): String = numFea + "= <Int>，特征向量维度\n"
+
+  override def getAlgDes(): String = "采用FTRL-Proximal优化的Logistic Regression算法"
+
+  override def getAlg(conf: Conf): Algorithm = {
+    //TODO 根据数据集特征提供维度
+    val numFeatures = 1000
+
+    println(getDescription)
+    new LRWithFTRL(numFeatures)
+  }
 }

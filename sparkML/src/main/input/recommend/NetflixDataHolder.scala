@@ -1,4 +1,4 @@
-package main.input
+package main.input.recommend
 
 /**
  * Created by zhy on 2015/7/18 0018.
@@ -16,7 +16,7 @@ import scala.collection.mutable.ArrayBuffer
 /**
  * @param dataDirectoryPath NetFlix数据集根目录
  */
-abstract class NetflixDataHolder(dataDirectoryPath: String) extends DataHolder {
+abstract class NetflixDataHolder(dataDirectoryPath: String) extends RecDataHolder {
   protected val productsIDsToNameMap = loadIDsToProductnameMapFromADirectory()
 
   /**

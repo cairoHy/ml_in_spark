@@ -1,6 +1,6 @@
 package main.recommender
 
-import main.factory.InputData
+import main.factory.InputRecData
 import org.apache.spark.mllib.recommendation.{ALS, MatrixFactorizationModel, Rating}
 import org.apache.spark.rdd.RDD
 
@@ -9,7 +9,7 @@ import org.apache.spark.rdd.RDD
  */
 
 final class ALSRec(ranks: Range, lambdas: List[Double], numIters: Range)
-  extends Recommender with InputData with Serializable {
+  extends Recommender with InputRecData with Serializable {
   //训练模型并测试
   val model = getBestModel()
   test

@@ -19,9 +19,9 @@ object MainHolder {
    * @param conf 配置管理类
    */
   def setUp(conf: Conf): Unit = {
-    val dataHolderNameToFactoryMap = DataFactory.dataHolderFactories.map(holder => holder.getName -> holder).toMap
+    val dataHolderNameToFactoryMap = DataFactory.dataHolderList.map(holder => holder.getName -> holder).toMap
     val dataHolderStr: String = conf.data()
-    dataHolder = Some(dataHolderNameToFactoryMap.get(dataHolderStr).get.getDataHolderInstance(conf))
+    dataHolder = Some(dataHolderNameToFactoryMap.get(dataHolderStr).get.getInstance(conf))
 
     val recommenderNameToFactoryMap = AlgorithmFactory.AlgList.map(rec => rec.getName -> rec).toMap
     val recommenderStr: String = conf.method()
