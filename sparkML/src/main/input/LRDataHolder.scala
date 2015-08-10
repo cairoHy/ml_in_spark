@@ -17,6 +17,7 @@ import scala.collection.mutable.ArrayBuffer
  */
 class LRDataHolder(dataDirectoryPath: String) extends DataHolder with Serializable {
   private val data: RDD[LabeledPoint] = loadDataFromFile
+  private val dimensions = 1000
 
   def loadDataFromFile: RDD[LabeledPoint] = {
     val data = SparkEnv.sc.textFile(dataDirectoryPath + "data.txt")
@@ -32,8 +33,7 @@ class LRDataHolder(dataDirectoryPath: String) extends DataHolder with Serializab
           values += featureI(1).toDouble
         }
       }
-      println(new LabeledPoint(label, new SparseVector(indices.length, indices.toArray, values.toArray)))
-      new LabeledPoint(label, new SparseVector(indices.length, indices.toArray, values.toArray))
+      new LabeledPoint(label, new SparseVector(dimensions, indices.toArray, values.toArray))
     }
     data
   }

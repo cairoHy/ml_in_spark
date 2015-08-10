@@ -32,6 +32,7 @@ final class FTRLProximal(val beta: Double = 0.1, val alpha: Double = 0.1, val L1
   //迭代函数
   def optimize(data: LabeledPoint, initialWeights: SparseVector[Double]): Array[SparseVector[Double]] = {
     W = initialWeights
+    println("optimize函数")
     val tmpVector: Array[SparseVector[Double]] = new Array[SparseVector[Double]](3)
     tmpVector(0) = step(data.features.toArray, data.label.toInt)
     tmpVector(1) = N
@@ -40,10 +41,12 @@ final class FTRLProximal(val beta: Double = 0.1, val alpha: Double = 0.1, val L1
   }
 
   //迭代过程
+  //TODO 迭代过程需要优化
   def step(feature: Array[Double], label: Int): SparseVector[Double] = {
+    println("step函数")
     var p: Double = 0.0
-    feature.foreach { dimen =>
-      val i = feature.indexOf(dimen)
+    for (i_double <- feature) {
+      val i = i_double.toInt
       var sign: Int = 0
       if (Z(i) < 0)
         sign = -1
@@ -62,13 +65,12 @@ final class FTRLProximal(val beta: Double = 0.1, val alpha: Double = 0.1, val L1
 
     // update
     val g: Double = p - label
-    feature.foreach { dimen =>
-      val i = feature.indexOf(dimen)
+    for (i_double <- feature) {
+      val i = i_double.toInt
       val sigma: Double = (Math.sqrt(N(i) + g * g) - Math.sqrt(N(i))) / alpha
       Z(i) += g - sigma * W(i)
       N(i) += g * g
     }
-
     W
   }
 

@@ -1,4 +1,4 @@
-package main.Classifier
+package main.classifier
 
 import breeze.linalg.SparseVector
 import breeze.numerics.exp
@@ -8,6 +8,8 @@ import main.optimizer.FTRLProximal
 import org.apache.spark.mllib.linalg.Vector
 import org.apache.spark.mllib.regression.LabeledPoint
 import org.apache.spark.rdd.RDD
+
+import scala.collection.mutable.ArrayBuffer
 
 /**
  * Created by zhy on 2015/8/2 0002.
@@ -19,18 +21,18 @@ import org.apache.spark.rdd.RDD
 final class LRWithFTRL(val numFeatures: Int)
   extends RegressionModel with InputLRData with Serializable {
 
-  train(trainData)
-  predictAccuracy(testData)
+  //初始化特征向量
+  private var weights: SparseVector[Double] = SparseVector.zeros(numFeatures)
 
   //设定优化算法
   override val optimizer = new FTRLProximal(D = numFeatures)
 
-  //初始化特征向量
-  private var weights: SparseVector[Double] = SparseVector.zeros(numFeatures)
+  train(trainData)
+  predictAccuracy(testData)
 
   def train(data: LabeledPoint): Unit = {
     println("训练数据" + data.toString)
-    val tmpVector: Array[SparseVector[Double]] = optimizer.optimize(data, weights)
+    val tmpVector = optimizer.optimize(data, weights)
     weights = tmpVector(0)
     optimizer.updateOptimizer(tmpVector(1), tmpVector(2))
   }
@@ -47,15 +49,18 @@ final class LRWithFTRL(val numFeatures: Int)
    * @return 准确率
    */
   def predictAccuracy(testData: RDD[LabeledPoint]): Unit = {
-    val predictions = testData.map { data =>
+    var predictions = new ArrayBuffer[Tuple2[Double,Double]]()
+    testData.toLocalIterator.foreach{ data =>
       val prediction = (data.label, predict(data.features))
       train(data)
-      prediction
+      predictions += prediction
     }
-    val numData = predictions.count
-    val numCorrect = predictions.filter { data =>
+    val numData:Int = predictions.toArray.length
+    val numCorrect:Int = predictions.toArray.filter{data=>
       data._1 == data._2
-    }.count
+    }.length
+    println("正确预测的数量： " + numCorrect +
+      "\n所有数量： " + numData )
     RMSE = numCorrect * 1.0 / numData
   }
 

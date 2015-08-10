@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="trySpark:jar" />
+      <artifact name="sparkML:jar" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37ef3c2b-b2a2-44db-8484-a32e592e347d" name="Default" comment="V1.3.2 加权Slop-One算法实现完成，效率太低">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/input/LRDataHolder.scala" />
-      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\Classifier\StreamingLRWithFTRL$$anonfun$predict$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\classifier\StreamingLRWithFTRL$$anonfun$predict$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\classifier\StreamingLRWithFTRL$$anonfun$train$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\classifier\StreamingLRWithFTRL.class" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\factory\InputData$class.class" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\factory\InputData.class" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\input\DataHolder$$anonfun$printRatingDesc$1.class" afterPath="" />
@@ -58,10 +59,6 @@
       <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\recommender\RecommenderFactory$.class" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\recommender\RecommenderFactory$class.class" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\recommender\RecommenderFactory.class" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\src\main\Classifier\StreamingLRWithFTRL.scala" afterPath="$PROJECT_DIR$/src/main/Classifier/LRWithFTRL.scala" />
-      <change type="MOVED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\src\main\input\DataHolder.scala" afterPath="$PROJECT_DIR$/src/main/input/recommend/RecDataHolder.scala" />
-      <change type="MOVED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\src\main\input\NetflixDataHolder.scala" afterPath="$PROJECT_DIR$/src/main/input/recommend/NetflixDataHolder.scala" />
-      <change type="MOVED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\src\main\input\YahooDataHolder.scala" afterPath="$PROJECT_DIR$/src/main/input/recommend/YahooDataHolder.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkML/main/factory/ALS$.class" afterPath="$PROJECT_DIR$/out/production/sparkML/main/factory/ALS$.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkML/main/recommender/ALSRec.class" afterPath="$PROJECT_DIR$/out/production/sparkML/main/recommender/ALSRec.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkML/main/factory/AlgorithmFactory$.class" afterPath="$PROJECT_DIR$/out/production/sparkML/main/factory/AlgorithmFactory$.class" />
@@ -70,22 +67,21 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkML/main/input/DataFactory$.class" afterPath="$PROJECT_DIR$/out/production/sparkML/main/input/DataFactory$.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkML/main/input/DataFactory.class" afterPath="$PROJECT_DIR$/out/production/sparkML/main/input/DataFactory.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkML/main/input/DataHolder.class" afterPath="$PROJECT_DIR$/out/production/sparkML/main/input/DataHolder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkML/main/optimizer/FTRLProximal$$anonfun$step$1.class" afterPath="$PROJECT_DIR$/out/production/sparkML/main/optimizer/FTRLProximal$$anonfun$step$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkML/main/optimizer/FTRLProximal$$anonfun$step$2.class" afterPath="$PROJECT_DIR$/out/production/sparkML/main/optimizer/FTRLProximal$$anonfun$step$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkML/main/optimizer/FTRLProximal$.class" afterPath="$PROJECT_DIR$/out/production/sparkML/main/optimizer/FTRLProximal$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkML/main/optimizer/FTRLProximal.class" afterPath="$PROJECT_DIR$/out/production/sparkML/main/optimizer/FTRLProximal.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkML/main/util/MainHolder$.class" afterPath="$PROJECT_DIR$/out/production/sparkML/main/util/MainHolder$.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkML/main/factory/RMSE$class.class" afterPath="$PROJECT_DIR$/out/production/sparkML/main/factory/RMSE$class.class" />
+      <change type="MODIFICATION" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\classifier\RegressionModel.class" afterPath="$PROJECT_DIR$/out/production/sparkML/main/classifier/RegressionModel.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkML/main/factory/SlopOne$.class" afterPath="$PROJECT_DIR$/out/production/sparkML/main/factory/SlopOne$.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkML/main/recommender/SlopOneRec.class" afterPath="$PROJECT_DIR$/out/production/sparkML/main/recommender/SlopOneRec.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkML/main/Classifier/StreamingLRWithFTRL$$anonfun$train$1.class" afterPath="$PROJECT_DIR$/out/production/sparkML/main/Classifier/StreamingLRWithFTRL$$anonfun$train$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkML/main/Classifier/StreamingLRWithFTRL.class" afterPath="$PROJECT_DIR$/out/production/sparkML/main/Classifier/StreamingLRWithFTRL.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/sparkML_jar/sparkML.jar" afterPath="$PROJECT_DIR$/out/artifacts/sparkML_jar/sparkML.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/recommender/ALSRec.scala" afterPath="$PROJECT_DIR$/src/main/recommender/ALSRec.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/factory/AlgTrait.scala" afterPath="$PROJECT_DIR$/src/main/factory/AlgTrait.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/trySpark_jar/trySpark.jar" afterPath="$PROJECT_DIR$/out/artifacts/trySpark_jar/trySpark.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/factory/AlgorithmFactory.scala" afterPath="$PROJECT_DIR$/src/main/factory/AlgorithmFactory.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/util/Conf.scala" afterPath="$PROJECT_DIR$/src/main/util/Conf.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/input/DataFactory.scala" afterPath="$PROJECT_DIR$/src/main/input/DataFactory.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/input/DataHolder.scala" afterPath="$PROJECT_DIR$/src/main/input/DataHolder.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/optimizer/FTRLProximal.scala" afterPath="$PROJECT_DIR$/src/main/optimizer/FTRLProximal.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/util/MainHolder.scala" afterPath="$PROJECT_DIR$/src/main/util/MainHolder.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/recommender/SlopOneRec.scala" afterPath="$PROJECT_DIR$/src/main/recommender/SlopOneRec.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/input/LRDataHolder.scala" afterPath="$PROJECT_DIR$/src/main/input/LRDataHolder.scala" />
+      <change type="MODIFICATION" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\src\main\classifier\RegressionModel.scala" afterPath="$PROJECT_DIR$/src/main/classifier/RegressionModel.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sparkML.iws" />
@@ -122,41 +118,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Conf.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/util/Conf.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="36" column="58" selection-start-line="36" selection-start-column="58" selection-end-line="36" selection-end-column="58" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LRWithFTRL.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Classifier/LRWithFTRL.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/classifier/LRWithFTRL.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+              <caret line="54" column="17" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LRDataHolder.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/input/LRDataHolder.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4379747">
-              <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FTRLProximal.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FTRLProximal.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/optimizer/FTRLProximal.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="34" column="42" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+            <state vertical-scroll-proportion="-0.52272725">
+              <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -170,6 +146,7 @@
         <option value="Scala Object" />
         <option value="Scala Trait" />
         <option value="Scala Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -194,9 +171,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/util/DataLoader.scala" />
-        <option value="$PROJECT_DIR$/src/main/util/DataHolder.scala" />
-        <option value="$PROJECT_DIR$/src/main/util/SparkEnvironment.scala" />
         <option value="$PROJECT_DIR$/src/main/util/NetflixDataHolder.scala" />
         <option value="$PROJECT_DIR$/src/main/util/YahooDataHolder.scala" />
         <option value="$PROJECT_DIR$/src/main/mlTrains/ALSTrain2.scala" />
@@ -242,9 +216,12 @@
         <option value="$PROJECT_DIR$/src/main/Classifier/StreamingLRWithFTRL.scala" />
         <option value="$PROJECT_DIR$/src/main/util/Conf.scala" />
         <option value="$PROJECT_DIR$/src/main/input/DataFactory.scala" />
-        <option value="$PROJECT_DIR$/src/main/optimizer/FTRLProximal.scala" />
         <option value="$PROJECT_DIR$/src/main/Classifier/LRWithFTRL.scala" />
+        <option value="D:/602/CFAlogrithm@Spark/源码/trySpark/src/TryALS/SparkContext.java" />
+        <option value="D:/602/CFAlogrithm@Spark/源码/trySpark/src/TryALS/TryALS.java" />
+        <option value="$PROJECT_DIR$/src/main/classifier/LRWithFTRL.scala" />
         <option value="$PROJECT_DIR$/src/main/input/LRDataHolder.scala" />
+        <option value="$PROJECT_DIR$/src/main/optimizer/FTRLProximal.scala" />
       </list>
     </option>
   </component>
@@ -348,128 +325,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="recommender" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="input" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Classifier" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
         <option name="show-excluded-files" value="false" />
       </pane>
       <pane id="Scratches" />
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mlTrains" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Changed Files" />
         <subPane subId="Project Files">
@@ -607,6 +466,52 @@
             <PATH_ELEMENT USER_OBJECT="trains">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparkML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparkML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparkML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparkML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparkML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparkML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mlTrains" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -1056,7 +961,9 @@
       <workItem from="1438564861615" duration="3041000" />
       <workItem from="1438570315383" duration="5226000" />
       <workItem from="1438593302524" duration="890000" />
-      <workItem from="1438594476268" duration="2103000" />
+      <workItem from="1438594476268" duration="2234000" />
+      <workItem from="1438909524711" duration="14292000" />
+      <workItem from="1439168086949" duration="2539000" />
     </task>
     <task id="LOCAL-00001" summary="V1.1 写了一个脚本用来随机上传10%NetFlix数据集到HDFS；实现了NetFlix数据集目录形式的读取">
       <created>1437380617513</created>
@@ -1082,11 +989,17 @@
       <option name="project" value="LOCAL" />
       <updated>1438525947045</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="V1.5.0 完成了LR-FTRL模型的Optimizer过程和框架，数据读入部分有一点问题">
+      <created>1438596684880</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1438596684880</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="143388000" />
+    <option name="totallyTimeSpent" value="160350000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1102,33 +1015,33 @@
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32475883" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31460676" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31672025" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3118971" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329582" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31832796" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31672025" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905295" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23845571" sideWeight="0.49164677" order="0" side_tool="false" content_ui="combo" x="561" y="58" width="243" height="622" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23845571" sideWeight="0.50835323" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905295" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1178,13 +1091,14 @@
     <MESSAGE value="V1.3.2 加权Slop-One算法实现完成，效率太低" />
     <MESSAGE value="V1.4.0 完成FTRL算法，正确性尚未验证，TODO中还有一项工作" />
     <MESSAGE value="V1.4.1 完成了TODO中更新两个向量的工作，等待对FTRL进行测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="V1.4.1 完成了TODO中更新两个向量的工作，等待对FTRL进行测试" />
+    <MESSAGE value="V1.5.0 完成了LR-FTRL模型的Optimizer过程和框架，数据读入部分有一点问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="V1.5.0 完成了LR-FTRL模型的Optimizer过程和框架，数据读入部分有一点问题" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1193,49 +1107,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/recommender/ALSRec.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/602/CFAlogrithm@Spark/环境/lib4intellij/spark/spark-assembly-1.4.0-hadoop2.6.0.jar!/org/apache/spark/SparkContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="57.857143">
-          <caret line="3" column="54" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/602/CFAlogrithm@Spark/环境/lib4intellij/spark/spark-assembly-1.4.0-hadoop2.6.0.jar!/org/apache/spark/mllib/recommendation/Rating.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03539823">
-          <caret line="1" column="69" selection-start-line="1" selection-start-column="69" selection-end-line="1" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.4.jar!/scala/Option.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14134276">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/602/CFAlogrithm@Spark/环境/lib4intellij/spark/spark-assembly-1.4.0-hadoop2.6.0.jar!/scala/collection/MapLike.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14134276">
@@ -1310,13 +1181,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.10600707">
           <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/602/CFAlogrithm@Spark/环境/lib4intellij/spark/spark-assembly-1.4.0-hadoop2.6.0.jar!/scala/collection/TraversableOnce.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34982333">
-          <caret line="46" column="6" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -1411,13 +1275,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/linalg/AlgUtil.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43844858">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/optimizer/Optimizer.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.20236088">
@@ -1425,7 +1282,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Classifier/RegressionModel.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/classifier/RegressionModel.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33670035">
           <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
@@ -1439,31 +1296,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/602/CFAlogrithm@Spark/环境/lib4intellij/spark/spark-assembly-1.4.0-hadoop2.6.0.jar!/org/apache/spark/mllib/linalg/SparseVector.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10600707">
-          <caret line="3" column="49" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/factory/AlgorithmFactory.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.87542087">
-          <caret line="28" column="69" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/recommender/Recommender.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/recommender/SlopOneRec.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06734007">
-          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -1478,15 +1314,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/util/Conf.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="58" selection-start-line="36" selection-start-column="58" selection-end-line="36" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1494,7 +1321,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6734007">
           <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1502,7 +1328,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.32659933">
           <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1510,7 +1335,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2698145">
           <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1518,7 +1342,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="60" column="37" selection-start-line="60" selection-start-column="37" selection-end-line="60" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1526,15 +1349,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34867257">
           <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/optimizer/FTRLProximal.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="42" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1542,22 +1356,115 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/util/Conf.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4040404">
+          <caret line="14" column="67" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/602/CFAlogrithm@Spark/环境/lib4intellij/spark/spark-assembly-1.4.0-hadoop2.6.0.jar!/org/apache/spark/mllib/recommendation/ALS.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.62477875">
+          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/602/CFAlogrithm@Spark/源码/trySpark/src/TryALS/TryALS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0455312">
+          <caret line="31" column="21" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/602/CFAlogrithm@Spark/源码/trySpark/src/TryALS/SparkContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3322091">
+          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/602/CFAlogrithm@Spark/环境/lib4intellij/spark/spark-assembly-1.4.0-hadoop2.6.0.jar!/org/apache/spark/mllib/regression/LabeledPoint.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.03539823">
+          <caret line="1" column="101" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/602/CFAlogrithm@Spark/环境/lib4intellij/spark/spark-assembly-1.4.0-hadoop2.6.0.jar!/org/apache/spark/mllib/linalg/SparseVector.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42477876">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/602/CFAlogrithm@Spark/环境/lib4intellij/spark/spark-assembly-1.4.0-hadoop2.6.0.jar!/scala/Array.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.71681416">
+          <caret line="50" column="66" selection-start-line="50" selection-start-column="66" selection-end-line="50" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/602/CFAlogrithm@Spark/环境/lib4intellij/spark/spark-assembly-1.4.0-hadoop2.6.0.jar!/scala/collection/GenSeqLike.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34867257">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/recommender/SlopOneRec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.4738617">
+          <caret line="103" column="0" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/linalg/AlgUtil.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2360877">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/602/CFAlogrithm@Spark/环境/lib4intellij/spark/spark-assembly-1.4.0-hadoop2.6.0.jar!/scala/collection/TraversableOnce.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35849056">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Classifier/LRWithFTRL.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/factory/AlgorithmFactory.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.3939394">
+          <caret line="75" column="6" selection-start-line="75" selection-start-column="6" selection-end-line="75" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/input/LRDataHolder.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4379747">
-          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.28282827">
+          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/classifier/LRWithFTRL.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="54" column="17" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/optimizer/FTRLProximal.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.52272725">
+          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
           <folding />
         </state>
       </provider>

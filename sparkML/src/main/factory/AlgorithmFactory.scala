@@ -1,6 +1,6 @@
 package main.factory
 
-import main.Classifier.LRWithFTRL
+import main.classifier.LRWithFTRL
 import main.recommender.{ALSRec, Recommender, SlopOneRec}
 import main.util.Conf
 

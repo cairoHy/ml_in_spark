@@ -1,4 +1,4 @@
-package main.Classifier
+package main.classifier
 
 import main.factory.Algorithm
 import main.optimizer.Optimizer
