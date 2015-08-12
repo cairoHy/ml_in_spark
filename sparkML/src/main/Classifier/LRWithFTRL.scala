@@ -31,13 +31,12 @@ final class LRWithFTRL(val numFeatures: Int)
   predictAccuracy(testData)
 
   def train(data: LabeledPoint): Unit = {
-    println("训练数据" + data.toString)
-    val tmpVector = optimizer.optimize(data, weights)
-    weights = tmpVector(0)
-    optimizer.updateOptimizer(tmpVector(1), tmpVector(2))
+    weights = optimizer.optimize(data, weights)
+    optimizer.printV
   }
 
   //训练参数
+  //TODO 训练和测试过程并行化
   override def train(trainData: RDD[LabeledPoint]): Unit = {
     val localTrainData = trainData.toLocalIterator
     localTrainData.foreach(data => train(data))

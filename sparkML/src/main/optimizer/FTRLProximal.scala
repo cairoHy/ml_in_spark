@@ -19,25 +19,22 @@ import org.apache.spark.mllib.regression.LabeledPoint
 final class FTRLProximal(val beta: Double = 0.1, val alpha: Double = 0.1, val L1: Double = 0.0, val L2: Double = 0.0, val D: Int = 1000)
   extends Optimizer {
 
-  private var N: SparseVector[Double] = SparseVector.zeros(D)
-  private var Z: SparseVector[Double] = SparseVector.zeros(D)
+  private val N: SparseVector[Double] = SparseVector.zeros(D)
+  private val Z: SparseVector[Double] = SparseVector.zeros(D)
   private var W: SparseVector[Double] = SparseVector.zeros(D)
 
-  //每次迭代后更新N和Z
-  def updateOptimizer(tmp_N: SparseVector[Double], tmp_Z: SparseVector[Double]): Unit = {
-    N = tmp_N
-    Z = tmp_Z
+  def printV = {
+    println("W向量" + W.toString())
+    println("N向量" + N.toString())
+    println("Z向量" + Z.toString())
   }
 
   //迭代函数
-  def optimize(data: LabeledPoint, initialWeights: SparseVector[Double]): Array[SparseVector[Double]] = {
+  def optimize(data: LabeledPoint, initialWeights: SparseVector[Double]):
+    SparseVector[Double] = {
     W = initialWeights
     println("optimize函数")
-    val tmpVector: Array[SparseVector[Double]] = new Array[SparseVector[Double]](3)
-    tmpVector(0) = step(data.features.toArray, data.label.toInt)
-    tmpVector(1) = N
-    tmpVector(2) = Z
-    tmpVector
+    step(data.features.toArray, data.label.toInt)
   }
 
   //迭代过程
