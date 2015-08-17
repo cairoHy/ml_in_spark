@@ -30,27 +30,27 @@ final class SlopOneRec extends Recommender with InputRecData with Serializable {
 
   /**
    *
-   * @param user 用户ID
-   * @param product 物品ID
+   * @param u 用户ID
+   * @param i 物品ID
    * @return 评分三元组
    */
-  def predict(user: Int, product: Int): Rating = {
-    val userRatings = {
-      val ratings = trainDataGroupByUser.lookup(user)
+  def predict(u: Int, i: Int): Rating = {
+    //(projectID,Ratings)
+    val S_u = {
+      val ratings = trainDataGroupByUser.lookup(u)
       if (ratings.length <= 0) throw new UserNotFoundException
       ratings(0).toIterator
     }
     var prediction: Double = 0
-    var sum_S_ij: Long = 0
-    userRatings.foreach { rating =>
-      val deviation_ij = calcuDeviation_ij(product, rating._1)
-      val S_ij = numUserConsumer_ij(product, rating._1)
-      val r_ui = rating._2
-      prediction += (deviation_ij + r_ui) * S_ij
-      sum_S_ij += S_ij
-      if (rating._1 == product) return new Rating(user, product, rating._2)
+    var S_u_minus_i: Double = 0
+    S_u.foreach { S_uj =>
+      if (S_uj._1 == i) return new Rating(u, i, S_uj._2)
+      val deviation_ij = calcuDeviation_ij(i, S_uj._1)
+      val r_uj = S_uj._2
+      S_u_minus_i += 1
+      prediction += (deviation_ij + r_uj)
     }
-    new Rating(user, product, prediction / sum_S_ij)
+    new Rating(u, i, prediction / (S_u_minus_i - 1))
   }
 
 

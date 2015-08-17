@@ -19,9 +19,24 @@ class Person1(fn: String, ln: String, a: Int) {
 
 }
 
+class Person2(val name: String) {
+
+  @scala.reflect.BeanProperty
+  var firstName = name.split("\\s+")(0)
+
+  @scala.reflect.BeanProperty
+  var lastName = name.split("\\s+")(1)
+
+  override def toString =
+    "[Person firstName:" + firstName + " lastName:" + lastName + " ]"
+
+}
+
 object main extends App {
   val person = new Person1("adsf","dsf",1)
   person.setAge(23)
   println(person.getFirstName)
   println(person toString)
+  val p = new Person2("john smith")
+  println(p.toString)
 }
