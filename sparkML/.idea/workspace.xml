@@ -6,59 +6,13 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37ef3c2b-b2a2-44db-8484-a32e592e347d" name="Default" comment="V1.3.2 加权Slop-One算法实现完成，效率太低">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scala/trains/packageTrain.scala" />
-      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\input\DataHolder$$anonfun$printRatingDesc$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\input\DataHolder$$anonfun$printRatingDesc$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\input\DataHolder$class.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\input\DataHolderFactory$.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\input\DataHolderFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\input\NetFlixInDirectoryDataHolderFactory$.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\input\NetFlixInDirectoryDataHolderFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\input\NetFlixInFileDataHolderFactory$.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\input\NetFlixInFileDataHolderFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\input\NetflixDataHolder$$anonfun$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\input\NetflixDataHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\input\NetflixDataHolder4Directory$$anonfun$3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\input\NetflixDataHolder4Directory$$anonfun$4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\input\NetflixDataHolder4Directory$$anonfun$loadRatingsFromADirectory$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\input\NetflixDataHolder4Directory$$anonfun$loadRatingsFromOneFile$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\input\NetflixDataHolder4Directory.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\input\NetflixDataHolder4OneFile$$anonfun$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\input\NetflixDataHolder4OneFile$.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\input\NetflixDataHolder4OneFile.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\input\WrongInputDataException.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\input\YahooDataHolder$$anonfun$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\input\YahooDataHolder$$anonfun$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\input\YahooDataHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\input\YahooDataHolderFactory$.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\input\YahooDataHolderFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\recommender\ALSRecommender$$anonfun$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\recommender\ALSRecommender$$anonfun$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\recommender\ALSRecommender$$anonfun$3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\recommender\ALSRecommender$$anonfun$4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\recommender\ALSRecommender$$anonfun$5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\recommender\ALSRecommender$$anonfun$train$1$$anonfun$apply$mcVI$sp$1$$anonfun$apply$mcVD$sp$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\recommender\ALSRecommender$$anonfun$train$1$$anonfun$apply$mcVI$sp$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\recommender\ALSRecommender$$anonfun$train$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\recommender\ALSRecommender.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\recommender\ALSRecommenderFactory$.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\recommender\ALSRecommenderFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\recommender\MyRecommender.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\recommender\Recommender$class.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\recommender\RecommenderFactory$.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\recommender\RecommenderFactory$class.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zhy\Documents\study\AD.SE\courseDesign\Source\sparkML\out\production\sparkML\main\recommender\RecommenderFactory.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkML/main/linalg/AlgUtil$.class" afterPath="$PROJECT_DIR$/out/production/sparkML/main/linalg/AlgUtil$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkML/main/linalg/AlgUtil.class" afterPath="$PROJECT_DIR$/out/production/sparkML/main/linalg/AlgUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkML/main/util/Conf$delayedInit$body.class" afterPath="$PROJECT_DIR$/out/production/sparkML/main/util/Conf$delayedInit$body.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkML/main/optimizer/Optimizer.class" afterPath="$PROJECT_DIR$/out/production/sparkML/main/optimizer/Optimizer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkML/scala/trains/main$.class" afterPath="$PROJECT_DIR$/out/production/sparkML/scala/trains/main$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkML/scala/trains/main$delayedInit$body.class" afterPath="$PROJECT_DIR$/out/production/sparkML/scala/trains/main$delayedInit$body.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkML/scala/trains/main.class" afterPath="$PROJECT_DIR$/out/production/sparkML/scala/trains/main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/sparkML_jar/sparkML.jar" afterPath="$PROJECT_DIR$/out/artifacts/sparkML_jar/sparkML.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scala/trains/Person.scala" afterPath="$PROJECT_DIR$/src/scala/trains/Person.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/recommender/SlopOneRec.scala" afterPath="$PROJECT_DIR$/src/main/recommender/SlopOneRec.scala" />
+    <list default="true" id="37ef3c2b-b2a2-44db-8484-a32e592e347d" name="Default" comment="V1.6.0 push-back slop-one algorithm to its original formula.The next step is to improve the accuracy of its prediction.">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scala/trains/classTrain.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scala/trains/classTrain2.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkML/main/recommender/SlopOneRec$$anonfun$main$recommender$SlopOneRec$$calcuDeviation_ij$1$$anonfun$8.class" afterPath="$PROJECT_DIR$/out/production/sparkML/main/recommender/SlopOneRec$$anonfun$main$recommender$SlopOneRec$$calcuDeviation_ij$1$$anonfun$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkML/main/recommender/SlopOneRec$$anonfun$main$recommender$SlopOneRec$$calcuDeviation_ij$1$$anonfun$9.class" afterPath="$PROJECT_DIR$/out/production/sparkML/main/recommender/SlopOneRec$$anonfun$main$recommender$SlopOneRec$$calcuDeviation_ij$1$$anonfun$9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkML/main/recommender/SlopOneRec$$anonfun$predict$1.class" afterPath="$PROJECT_DIR$/out/production/sparkML/main/recommender/SlopOneRec$$anonfun$predict$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/sparkML/main/recommender/SlopOneRec.class" afterPath="$PROJECT_DIR$/out/production/sparkML/main/recommender/SlopOneRec.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sparkML.iws" />
@@ -94,18 +48,7 @@
     <favorites_list name="sparkML" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="SlopOneRec.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/recommender/SlopOneRec.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.8887016">
-              <caret line="60" column="24" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -139,8 +82,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/mlTrains/ALSTrain2.scala" />
-        <option value="$PROJECT_DIR$/src/main/mlTrains/ALSTrain.scala" />
         <option value="$PROJECT_DIR$/src/main/MainHolder.scala" />
         <option value="$PROJECT_DIR$/src/main/util/SparkEnv.scala" />
         <option value="$PROJECT_DIR$/src/main/util/DataHolderFactory.scala" />
@@ -190,6 +131,8 @@
         <option value="$PROJECT_DIR$/src/scala/trains/Person.scala" />
         <option value="$PROJECT_DIR$/src/scala/trains/packageTrain.scala" />
         <option value="$PROJECT_DIR$/src/main/recommender/SlopOneRec.scala" />
+        <option value="$PROJECT_DIR$/src/scala/trains/classTrain.scala" />
+        <option value="$PROJECT_DIR$/src/scala/trains/classTrain2.scala" />
       </list>
     </option>
   </component>
@@ -261,52 +204,7 @@
       <sortByType ProjectPane="false" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sparkML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mlTrains" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
+      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Changed Files" />
         <subPane subId="Project Files">
@@ -448,7 +346,52 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparkML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparkML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparkML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparkML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparkML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparkML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mlTrains" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -475,6 +418,46 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="sparkML" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparkML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparkML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trains" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparkML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparkML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trains" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classTrain2.scala" />
+              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -520,7 +503,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="D:/602/CFAlogrithm@Spark/源码/trySpark" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="FullScreen" value="false" />
@@ -541,27 +524,7 @@
       <recent name="main.mlTrains" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.test2">
-    <configuration default="false" name="testClass" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="scala.trains.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="scala.trains.testClass" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="sparkML" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.aa">
     <configuration default="false" name="Scala Console" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console" temporary="true">
       <module name="sparkML" />
       <setting name="vmparams4" value="-Djline.terminal=NONE" />
@@ -617,6 +580,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="scala.trains.test2" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="sparkML" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="aa" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="scala.trains.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="scala.trains.aa" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -934,19 +917,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.testClass" />
-      <item index="1" class="java.lang.String" itemvalue="Scala Console.Scala Console" />
-      <item index="2" class="java.lang.String" itemvalue="Application.main" />
-      <item index="3" class="java.lang.String" itemvalue="Application.test" />
-      <item index="4" class="java.lang.String" itemvalue="Application.test2" />
+      <item index="0" class="java.lang.String" itemvalue="Scala Console.Scala Console" />
+      <item index="1" class="java.lang.String" itemvalue="Application.main" />
+      <item index="2" class="java.lang.String" itemvalue="Application.test" />
+      <item index="3" class="java.lang.String" itemvalue="Application.test2" />
+      <item index="4" class="java.lang.String" itemvalue="Application.aa" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.test2" />
-        <item index="1" class="java.lang.String" itemvalue="Application.test" />
-        <item index="2" class="java.lang.String" itemvalue="Application.main" />
-        <item index="3" class="java.lang.String" itemvalue="Scala Console.Scala Console" />
-        <item index="4" class="java.lang.String" itemvalue="Application.testClass" />
+        <item index="0" class="java.lang.String" itemvalue="Application.aa" />
+        <item index="1" class="java.lang.String" itemvalue="Application.test2" />
+        <item index="2" class="java.lang.String" itemvalue="Application.test" />
+        <item index="3" class="java.lang.String" itemvalue="Application.main" />
+        <item index="4" class="java.lang.String" itemvalue="Scala Console.Scala Console" />
       </list>
     </recent_temporary>
   </component>
@@ -1027,7 +1010,9 @@
       <workItem from="1439377580198" duration="161000" />
       <workItem from="1439452327610" duration="31000" />
       <workItem from="1439810370814" duration="1158000" />
-      <workItem from="1439811805355" duration="1579000" />
+      <workItem from="1439811805355" duration="2521000" />
+      <workItem from="1439952496058" duration="1274000" />
+      <workItem from="1440034080158" duration="4153000" />
     </task>
     <task id="LOCAL-00001" summary="V1.1 写了一个脚本用来随机上传10%NetFlix数据集到HDFS；实现了NetFlix数据集目录形式的读取">
       <created>1437380617513</created>
@@ -1059,11 +1044,17 @@
       <option name="project" value="LOCAL" />
       <updated>1438596684880</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="V1.6.0 push-back slop-one algorithm to its original formula.The next step is to improve the accuracy of its prediction.">
+      <created>1439813512406</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1439813512406</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="179380000" />
+    <option name="totallyTimeSpent" value="185749000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1076,14 +1067,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31672025" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3081862" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30707395" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329582" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329582" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1091,7 +1082,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905295" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23845571" sideWeight="0.49164677" order="0" side_tool="false" content_ui="combo" x="561" y="58" width="243" height="622" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23845571" sideWeight="0.49164677" order="0" side_tool="false" content_ui="combo" x="561" y="58" width="243" height="622" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1112,30 +1103,30 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329582" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905295" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3279743" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31672025" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30707395" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.329582" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31672025" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905295" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23845571" sideWeight="0.49164677" order="0" side_tool="false" content_ui="combo" x="561" y="58" width="243" height="622" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23845571" sideWeight="0.50835323" order="3" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1157,7 +1148,8 @@
     <MESSAGE value="V1.4.1 完成了TODO中更新两个向量的工作，等待对FTRL进行测试" />
     <MESSAGE value="V1.5.0 完成了LR-FTRL模型的Optimizer过程和框架，数据读入部分有一点问题" />
     <MESSAGE value="V1.5.1 修改了FTRL的bug，预测正确率0.5-0.55，下一步需要对FTRL的正确性和并行方法进行研究" />
-    <option name="LAST_COMMIT_MESSAGE" value="V1.5.1 修改了FTRL的bug，预测正确率0.5-0.55，下一步需要对FTRL的正确性和并行方法进行研究" />
+    <MESSAGE value="V1.6.0 push-back slop-one algorithm to its original formula.The next step is to improve the accuracy of its prediction." />
+    <option name="LAST_COMMIT_MESSAGE" value="V1.6.0 push-back slop-one algorithm to its original formula.The next step is to improve the accuracy of its prediction." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1172,20 +1164,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/input/recommend/NetflixDataHolder.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5059022">
-          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scala/trains/collectionExamples.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9325464">
-          <caret line="45" column="41" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/util/SparkEnv.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5733558">
@@ -1519,16 +1497,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.9224284">
           <caret line="57" column="25" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
-          <folding>
-            <element signature="e#867#908#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scala/trains/classTrain.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.539629">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/recommender/SlopOneRec.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.8887016">
-          <caret line="60" column="24" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
+        <state vertical-scroll-proportion="1.989882">
+          <caret line="63" column="5" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scala/trains/classTrain2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16863406">
+          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -1588,7 +1579,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>sparkML</last-edited>
+          <last-edited>trySpark</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
