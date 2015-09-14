@@ -1,2 +1,6 @@
 */lib/
 */out/
+*/META-INF/
+*/scala-train/
+*/mlTrains/
+*/.idea/
