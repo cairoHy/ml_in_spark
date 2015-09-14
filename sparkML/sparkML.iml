@@ -9,5 +9,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="scala-sdk-2.10.4" level="application" />
     <orderEntry type="library" name="spark-assembly-1.4.0-hadoop2.6.0" level="project" />
+    <orderEntry type="library" name="scallop_2.10-0.9.5" level="project" />
   </component>
 </module>
