@@ -20,6 +20,8 @@ class LRDataHolder(dataDirectoryPath: String) extends DataHolder with Serializab
   private val dimensions = 1000
 
   def loadDataFromFile: RDD[LabeledPoint] = {
+    val feature1 = SparkEnv.sc.textFile(dataDirectoryPath + "Features.txt")
+    val feature2 = SparkEnv.sc.textFile(dataDirectoryPath + "Info.txt")
     val data = SparkEnv.sc.textFile(dataDirectoryPath + "data.txt")
       .map { line =>
       var indices = ArrayBuffer[Int]()
